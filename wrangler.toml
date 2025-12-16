@@ -1,10 +1,13 @@
 # wrangler.toml
 name = 'remaster-kingdom-worker'
-main = "_worker.js"
-compatibility_date = "2025-11-04"
+main = "src/_worker.js"
 keep_vars = true
+compatibility_date = "2025-12-15"
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
+[[kv_namespaces]]
+binding = "KV"
+id = "d9bbc39747e20eabbc0b198b2e5e7cf2"
 
-#id = ""				#KV数据库id
+[vars]
+PAGES = "https://edt-pages.github.io"
+
