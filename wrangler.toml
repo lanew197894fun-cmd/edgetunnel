@@ -6,8 +6,9 @@ compatibility_date = "2025-12-15"
 
 [[kv_namespaces]]
 binding = "KV"
-id = "d9bbc39747e20eabbc0b198b2e5e7cf2"
+id = "c43788e0-ca23-491c-b05b-0e7a1ef7bfdf"
 
 [vars]
 PAGES = "https://edt-pages.github.io"
+
 
